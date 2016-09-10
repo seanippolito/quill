@@ -1,0 +1,28 @@
+.ql-multi-cursor
+  position: absolute
+  left: 0
+  top: 0
+  z-index: 1000
+  .ql-cursor
+    margin-left: -1px
+    position: absolute
+  .ql-cursor-flag
+    bottom: 100%
+    position: absolute
+    white-space: nowrap
+  .ql-cursor-name
+    display: inline-block
+    color: white
+    padding: 2px 8px
+  .ql-cursor-caret
+    height: 100%
+    position: absolute
+    width: 2px
+  .ql-cursor.ql-hidden .ql-cursor-flag
+    display: none
+  .ql-cursor.ql-top .ql-cursor-flag
+    bottom: auto
+    top: 100%
+  .ql-cursor.ql-right .ql-cursor-flag
+    right: -2px
+
