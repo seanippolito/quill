@@ -16,7 +16,7 @@ class MultiCursor {
   }
 
   clearCursors() {
-    Object.keys(this.curosrs).forEach(this.removeCursor.bind(this));
+    Object.keys(this.cursors).forEach(this.removeCursor.bind(this));
   }
 
   moveCursor(userId, index) {
